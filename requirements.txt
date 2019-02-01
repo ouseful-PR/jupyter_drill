@@ -1,8 +1,5 @@
-jupyterhub>=0.5
 marathon
-requests
 requests_toolbelt
-IPython
-getpass
 pandas
-ipywidgets
+#jupyter-server-proxy
+git+https://github.com/jupyterhub/jupyter-server-proxy.git
