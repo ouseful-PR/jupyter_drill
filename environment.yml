@@ -4,3 +4,5 @@ channels:
 dependencies:
   - ipywidgets
   - beakerx
+  - pip:
+    - https://github.com/jupyterhub/jupyter-server-proxy.git
