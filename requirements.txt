@@ -1,4 +1,3 @@
 marathon
 requests_toolbelt
 pandas
-jupyter-server-proxy
