@@ -1,0 +1,3 @@
+#We need Apache Zookeeper so we can run Apache Drill as a daemon?
+wget https://www-us.apache.org/dist/zookeeper/stable/zookeeper-3.4.12.tar.gz
+tar -xzvf zookeeper-3.4.12.tar.gz
