@@ -1,5 +1,4 @@
 marathon
 requests_toolbelt
 pandas
-#jupyter-server-proxy
-git+https://github.com/jupyterhub/jupyter-server-proxy.git
+jupyter-server-proxy
