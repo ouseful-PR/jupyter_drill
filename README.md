@@ -1,6 +1,8 @@
 # jupyter_drill
 A module to help interaction with Jupyter Notebooks and Apache Drill
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ouseful-PR/jupyter_drill/binderise)
+
 ---
 
 ## TH
