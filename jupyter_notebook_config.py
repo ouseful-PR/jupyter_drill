@@ -5,6 +5,7 @@ c.ServerProxy.servers = {
         'command': ['/home/jovyan/apache-drill-1.15.0/bin/drill-embedded'],
         'timeout': 120,
         'absolute_url': True, 
+        'port':8047,
         'launcher_entry': {
             'enabled': True,
             #'icon_path': '',
