@@ -4,5 +4,6 @@ channels:
 dependencies:
   - ipywidgets
   - beakerx
+  - zookeeper-c
   - pip:
     - https://github.com/jupyterhub/jupyter-server-proxy/archive/master.zip
