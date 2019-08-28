@@ -10,6 +10,22 @@ A module to help interaction with Jupyter Notebooks and Apache Drill
 static downloaded from apache drill site:
 svn export https://github.com/apache/drill/trunk/exec/java-exec/src/main/resources/rest/static drillstatic
 
+
+?? Not sure if this is working atm. 
+
+- Apache Drill can be started on command line with `apache-drill-1.15.0/bin/drill-embedded` and seems to work
+- the html UI exposed via `jupyter-server-proxy` (*Binder URL+*`proxy/8047` or *Binder URL+*`proxy/8047/`) has broken styling
+- `pyDrill` seems to connect once it is started:
+
+```
+!pip install pydrill
+from pydrill.client import PyDrill
+drill = PyDrill(port=8047)
+drill.is_active()
+```
+
+The `%drill connect` invocation throws an error if we just go with entering empty defaults (default connection is probably http://localhost:8047` ).
+
 ---
 
 ###
