@@ -22,6 +22,18 @@ svn export https://github.com/apache/drill/trunk/exec/java-exec/src/main/resourc
 from pydrill.client import PyDrill
 drill = PyDrill(port=8047)
 drill.is_active()
+
+
+!pip install pandas
+import pandas as pd
+
+df= pd.DataFrame({'a':[1,2,3]})
+df.to_csv('test.csv', index=False)
+df
+
+
+q='SELECT * FROM dfs.`/home/jovyan/test.csv`'
+drill.query(q).to_dataframe()
 ```
 
 The `%drill connect` invocation throws an error if we just go with entering empty defaults (default connection is probably http://localhost:8047` ).
