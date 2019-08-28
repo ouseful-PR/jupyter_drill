@@ -1,0 +1,5 @@
+#!/bin/bash
+
+nohup apache-drill-1.15.0/bin/drill-embedded  > /dev/null 2>&1 &
+
+exec "$@" 
