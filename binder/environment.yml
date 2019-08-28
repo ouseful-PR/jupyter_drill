@@ -7,3 +7,7 @@ dependencies:
   - zookeeper-c
   - pip:
     - https://github.com/jupyterhub/jupyter-server-proxy/archive/master.zip
+    - marathon
+    - requests_toolbelt
+    - pandas
+    - .
