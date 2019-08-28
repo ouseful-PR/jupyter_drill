@@ -10,4 +10,3 @@ dependencies:
     - marathon
     - requests_toolbelt
     - pandas
-    - https://github.com/JohnOmernik/jupyter_drill/archive/master.zip
