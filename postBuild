@@ -1,6 +1,6 @@
 #We need Apache Zookeeper so we can run Apache Drill as a daemon?
 wget https://www.apache.org/dist/zookeeper/stable/apache-zookeeper-3.5.5.tar.gz
-tar -xzvf zookeeper-3.5.5.tar.gz
+tar -xzvf apache-zookeeper-3.5.5.tar.gz
 
 wget -q -O apache-drill-1.15.0.tar.gz http://apache.mirrors.hoobly.com/drill/drill-1.15.0/apache-drill-1.15.0.tar.gz
 tar xzf apache-drill-1.15.0.tar.gz
